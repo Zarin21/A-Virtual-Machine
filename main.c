@@ -4,7 +4,6 @@
 #define MEMORY_MAX (1 << 16) // 65536 memory locations; maximum that is addressed by a 16-bit unsigned integer (2^16)
 
 __UINT16_TYPE__ memory[MEMORY_MAX]; // 65536 locations
-
 // Registers
 enum
 {
